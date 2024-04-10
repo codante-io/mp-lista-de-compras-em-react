@@ -1,29 +1,21 @@
-# Nome do Mini Projeto
+# Lista de Compras em React
 
-(um parágrafo explicando)
+Crie uma lista de compras fluida para te ajudar a lembrar quais itens comprar no supermercado! Pratique tópicos básicos de React com esse Mini Projeto.
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Este projeto já possui um setup pré-desenvolvido por nós usando o Vite. Utilize-o, ou se preferir, apague os arquivos e faça o design do zero!
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
-
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
-
-- Requisito 3
-- ...
-
-## 🔨 Desafio extra para quem quer ir além
-
-(Essa seção é opcional)
-
-- Requisito extra 1. 
-- Requisito extra 2.
+- Implemente a funcionalidade do formulário para que, ao submetê-lo, o item seja adicionado à lista de compras.
+	- Você poderá usar a estratégia de inputs controlados ou não controlados. Pratique a estratégia com a qual você tenha menos familiaridade.
+- Implemente a funcionalidde de marcar um item como concluído ao clicar no botão de concluir
+	- Este item deverá ir para a lista de "Itens já comprados"
+ 	- Este item deverá ter o texto "riscado" e com uma cor mais clara
+  	- O ícone de "A fazer" (círculo vazio) deverá ser substituído pelo ícone de "Feito" (check). 
+- Implemente a funcionalidade de excluir um item ao clicar no ícone de lixeira.
+- Divida o código em componentes e deixe-o legível
 
 ## 🎨 Design Sugerido
 
@@ -39,13 +31,12 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 #### React
 
-- Habilidade 1 do React
-- Habilidade 2
-
-#### TailwindCSS
-
-- Habilidade 1 do TailwindCSS
+- Componentes controlados e não controlados
+- Formulário
+- Estado
+- Renderização condicional
+- onClick vs onSubmit
 
 ### Pré requisitos
 
-(coloque aqui se houver algum)
+- Conhecimento básico de React (jsx, componentes, props)
