@@ -37,6 +37,12 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 - Renderização condicional
 - onClick vs onSubmit
 
+> [!TIP]
+> Preste atenção na estrutura de dados do seu estado (state).
+
+> [!TIP]
+> Neste caso, você usaria formulário controlado ou não controlado?
+
 ### Pré requisitos
 
 - Conhecimento básico de React (jsx, componentes, props)
